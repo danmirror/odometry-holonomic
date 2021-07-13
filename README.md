@@ -1,4 +1,4 @@
-# Odometri Holonomic 3 wheels robot
+# Odometry Holonomic 3 wheels robot
 > reference math used <a href="http://modwg.co.uk/wp-content/uploads/2015/06/OmniRoller-Holonomic-Drive-Tutorial.pdf">this</a>
 
 ## matrix
