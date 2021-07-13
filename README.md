@@ -3,14 +3,14 @@
 
 ## matrix
 
-  |x| = | a b c |  |s1| <br>
-  |y| = | d e f |  |s2| <br>
-  |w| = | g h i |  |s3| <br>
+  |x| = | a b c | * |s1| <br>
+  |y| = | d e f | * |s2| <br>
+  |w| = | g h i | * |s3| <br>
 
 ## invers
-  |s1| = | a b c |  |x| <br>
-  |s2| = | d e f |  |y| <br>
-  |s3| = | g h i |  |w| <br>
+  |s1| = | a b c | * |x| <br>
+  |s2| = | d e f | * |y| <br>
+  |s3| = | g h i | * |w| <br>
   
  ## motor set
   > s1 = a_inverse* x + b_inverse* y + c_inverse* w; <br>
