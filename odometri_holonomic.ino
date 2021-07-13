@@ -41,8 +41,9 @@ void set_speeds(float x_speed,float y_speed,float w_speed){
 //  |cos(30+90), cos(150+90), cos(270+90)|, 
 //  |sin(30+90), sin(150+90), sin(270+90)|, 
 //  |1,         1,            1          |
-//    
-
+//
+      
+// using it
     a = cos(deg2rad(120)); b = cos(deg2rad(240)); c = cos(deg2rad(360));
     d = sin(deg2rad(120)); e = sin(deg2rad(240)); f = sin(deg2rad(360));
     g = 1;        h = 1;        i=1;
@@ -63,7 +64,7 @@ void set_speeds(float x_speed,float y_speed,float w_speed){
   
 //  
   //calculate determint
-//  det = a*e*i + b*f*g + c*d*h - c*e*g - a*f*h - b*d*i;
+ det = a*e*i + b*f*g + c*d*h - c*e*g - a*f*h - b*d*i;
 
 //  Serial.print("det = ");
 //  Serial.println(det);
